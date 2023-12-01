@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 10px;
+    align-items: flex-start;
+    border-bottom: 2px solid black;
+}
+.prev, .next {
+    color:blue;
+}

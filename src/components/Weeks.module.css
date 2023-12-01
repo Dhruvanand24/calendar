@@ -1,0 +1,33 @@
+/* Weeks.module.css */
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .weekContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .leftDiv {
+    flex: 1;
+    background-color: aquamarine;
+  }
+  
+  .rightDiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  
+  .checkbox {
+    color: blue;
+    margin-bottom: 5px;
+  }
+  

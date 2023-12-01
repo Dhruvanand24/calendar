@@ -1,0 +1,54 @@
+/* Main.module.css */
+.Main {
+    /* Add your styles here */
+    display: flex;
+    flex-direction: column;
+
+  
+  }
+  
+  /* Add styles for the dropdown button */
+  .dropdown {
+    display: flex;
+    margin-top: 5px;
+    
+    
+  }
+  
+  /* Style for the dropdown button itself */
+  .dropdownbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the dropdown content */
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style for each dropdown option */
+  .dropdownoption {
+    padding: 12px 16px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  /* Change color when hovering over the dropdown option */
+  .dropdownoption:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown content when hovering over the dropdown button */
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+  
